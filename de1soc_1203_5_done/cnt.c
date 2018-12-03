@@ -16,15 +16,11 @@ void cnt_en_func(int en){
         return;
     }
 
-
-
-
     cnt_en = (unsigned int *)(virtual_base + ((CNT_EN_BASE) & (HW_REGS_MASK)));
 
     *cnt_en=en;
     return;
 }
-
 
 void cnt_rst_func(int rst){
     volatile unsigned int *cnt_rst;
@@ -41,9 +37,6 @@ void cnt_rst_func(int rst){
         close(fd);
         return;
     }
-
-
-
 
     cnt_rst = (unsigned int *)(virtual_base + ((CNT_RST_BASE) & (HW_REGS_MASK)));
 
@@ -67,11 +60,7 @@ int cnt_val_func(){
         return (1);
     }
 
-
-
-
     cnt_val = (unsigned int *)(virtual_base + ((CNT_VAL_BASE) & (HW_REGS_MASK)));
-
     return *cnt_val;
 }
 
@@ -91,5 +80,4 @@ double pow(double n,double m){
     }
     n=(double)temp_n;
     return n;
-
 }
