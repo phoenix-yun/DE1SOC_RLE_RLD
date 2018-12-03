@@ -1,0 +1,6 @@
+8bit,./compressed_8bit/compressed_0_CONVOLUTIONAL_out.bin,363375006
+8bit,./compressed_8bit/compressed_63_CONVOLUTIONAL_out.bin,11359197
+16bit,./compressed_16bit/compressed_0_CONVOLUTIONAL_out.bin,378703451
+16bit,./compressed_16bit/compressed_63_CONVOLUTIONAL_out.bin,11749932
+32bit,./compressed_32bit/compressed_0_CONVOLUTIONAL_out.bin,409506039
+32bit,./compressed_32bit/compressed_63_CONVOLUTIONAL_out.bin,10893690
